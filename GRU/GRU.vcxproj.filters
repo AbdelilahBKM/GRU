@@ -33,9 +33,6 @@
     <ClCompile Include="Responsable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Titre_conges.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utilisateur.h">
@@ -51,9 +48,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Responsable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Titre_conges.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

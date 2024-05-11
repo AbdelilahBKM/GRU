@@ -31,15 +31,15 @@ void Employe::setRole(string role) {
 
 // redefinition d'affichage
 void Employe::afficher() {
-    cout << "\t\tEmploye de matricule: " << matricule << endl;
-    cout << "nom: " << nom << endl;
-    cout << "prenom: " << prenom << endl;
-    cout << "email: " << email << endl;
-    cout << "departement: " << departement << endl;
-    cout << "role: " << role << endl;
+    cout << "\tEmploye de matricule: " << matricule << endl;
+    cout << "\tnom: " << nom << endl;
+    cout << "\tprenom: " << prenom << endl;
+    cout << "\temail: " << email << endl;
+    cout << "\tdepartement: " << departement << endl;
+    cout << "\trole: " << role << endl << endl;
 
 }
 
 DemmandeConges Employe::demmanderConges(string dateDebut, string dateFin) {
-    return DemmandeConges(0, matricule, dateDebut, dateFin);
+    return DemmandeConges(matricule, dateDebut, dateFin);
 }

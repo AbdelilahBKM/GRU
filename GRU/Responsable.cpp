@@ -1,4 +1,5 @@
 #include "Responsable.h"
+#include "DemmandeConges.h"
 
 Responsable::Responsable(string matricule, string nom, string prenom, string email)
     : Administrateur(matricule, nom, prenom, email) {}
@@ -24,5 +25,8 @@ void Responsable::afficher() {
     cout << "nom: " << nom << endl;
     cout << "prenom: " << prenom << endl;
     cout << "email: " << email << endl;
+}
 
+void Responsable::modifierStatus(DemmandeConges& demande, bool status) {
+    demande.statusDemmande = status;
 }

@@ -5,7 +5,7 @@ Utilisateur::Utilisateur(string matricule, string nom, string prenom, string ema
     : matricule(matricule), nom(nom), prenom(prenom), email(email) {}
 
 // Méthode pour authentifier l'utilisateur
-bool Utilisateur::authentifier(string matricule, string email) {    
+bool Utilisateur::authentifier(string matricule, string email) {
     return (this->matricule == matricule && this->email == email); 
 }
 

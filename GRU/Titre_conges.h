@@ -10,7 +10,7 @@ private:
 	string approuve_par;
 	int duree_conges;
 public:
-	Titre_conges(int = 0, int = 0, string = "", int = 0);
+	Titre_conges(int = 0, int = 0, string="", int=0);
     // Getters
     int getId() const;
     int getIdDemande() const;
@@ -20,7 +20,7 @@ public:
     // Setters
     void setId(int);
     void setIdDemande(int);
-    void setApprouvePar(const string&);
+    void setApprouvePar(string);
     void setDureeConges(int);
 
 };

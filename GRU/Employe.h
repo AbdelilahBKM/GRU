@@ -4,6 +4,7 @@
 #include "DemmandeConges.h"
 #include<iostream>
 
+class DemmandeConges;
 class Employe : public Utilisateur
 {
 private:
@@ -11,18 +12,18 @@ private:
 	string role;
 public:
 	Employe(string = "", string = "", string = "", string = "", string = "", string = "");
-	void modifierEmploye(string = "", string = "", string = "", string = "", string = "");
+	void modifierEmploye(string, string, string, string, string);
 	// Getters
 	string getDepartement();
 	string getRole();
 
 	// Setters
-	void setDepartement(string ="");
-	void setRole(string ="");
+	void setDepartement(string);
+	void setRole(string);
 
 	void afficher() override;
 
-	DemmandeConges demmanderConges(string="", string="");
+	DemmandeConges demmanderConges(string, string);
 
 };
 #endif // !EMPLOYE_H

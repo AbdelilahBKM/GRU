@@ -11,22 +11,22 @@ protected:
 	string prenom;
 	string email;
 public:
-	Utilisateur(string = "", string = "", string = "", string = "");
+	Utilisateur(string="", string="", string="", string="");
 
-	bool authentifier();
+	bool authentifier(string, string);
 
 	virtual void afficher() = 0;
 
-	void setMatricule(string = "");
+	void setMatricule(string);
 	string getMatricule();
 
-	void setNom(string = "");
+	void setNom(string);
 	string getNom();
 
-	void setPrenom(string = "");
+	void setPrenom(string);
 	string getPrenom();
 
-	void setEmail(string = "");
+	void setEmail(string);
 	string getEmail();
 
 };

@@ -132,7 +132,6 @@
     <ClCompile Include="Employe.cpp" />
     <ClCompile Include="GRU.cpp" />
     <ClCompile Include="Responsable.cpp" />
-    <ClCompile Include="Titre_conges.cpp" />
     <ClCompile Include="Utilisateur.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,7 +139,6 @@
     <ClInclude Include="DemmandeConges.h" />
     <ClInclude Include="Employe.h" />
     <ClInclude Include="Responsable.h" />
-    <ClInclude Include="Titre_conges.h" />
     <ClInclude Include="Utilisateur.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
